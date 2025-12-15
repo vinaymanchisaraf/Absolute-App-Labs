@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+                        Task Management System
+A modern, role-based task management application built with React that features drag-and-drop task reassignment, local storage persistence, and a responsive user interface.
+📋 Features
+Role-Based Access Control
+Admin Users:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create and assign tasks to users
 
-## Available Scripts
+View all tasks across the organization
 
-In the project directory, you can run:
+Reassign tasks using drag-and-drop
 
-### `npm start`
+Monitor task statistics and user workload
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Regular Users:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View only assigned tasks
 
-### `npm test`
+Update task status (Pending → In Progress → Completed)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Track personal task statistics
 
-### `npm run build`
+Core Functionality
+✅ Task Management: Create, view, update, and reassign tasks
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🎯 Drag-and-Drop: Intuitive task reassignment for admins
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+💾 Local Storage: All data persists across browser sessions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📱 Responsive Design: Works seamlessly on desktop and mobile
 
-### `npm run eject`
+📊 Real-time Statistics: Visual task distribution and progress tracking
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🎨 Modern UI: Clean, intuitive interface with visual feedback
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🛠️ Tech Stack
+Frontend: React 18
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+State Management: React Hooks
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Drag & Drop: React DnD
 
-## Learn More
+Storage: Browser LocalStorage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Styling: Custom CSS with Flexbox/Grid
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Build Tool: Create React App
 
-### Code Splitting
+📦 Installation
+Prerequisites
+Node.js (v14 or higher)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm or yarn
 
-### Analyzing the Bundle Size
+Setup Instructions
+Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+bash
+git clone <repository-url>
+cd task-management-app
+Install dependencies
 
-### Making a Progressive Web App
+bash
+npm install
+Start the development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+npm start
+Open in browser
+Navigate to http://localhost:3000
