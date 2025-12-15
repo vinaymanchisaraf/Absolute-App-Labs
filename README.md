@@ -67,4 +67,4 @@ Start the development server
 bash
 npm start
 Open in browser
-Navigate to http://localhost:3000
+Navigate to http://localhost:3001
